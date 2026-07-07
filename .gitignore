@@ -3,3 +3,4 @@
 slurm*
 /output
 .DS_Store
+/data/

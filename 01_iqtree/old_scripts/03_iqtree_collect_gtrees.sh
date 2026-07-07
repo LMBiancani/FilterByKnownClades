@@ -30,4 +30,3 @@ date
 ( > gtrees.txt; cat $array_work_folder/array_list.txt | while read line1; do cat $array_work_folder/${line1} >> gtrees.txt; done )
 ( > gtrees.tre; cat gtrees.txt | while read line; do cat ./inference_${line}.treefile >> gtrees.tre; done )
 date
-
