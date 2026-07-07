@@ -1,6 +1,7 @@
 **/simulated_loci/
 **/constraint_trees/
 slurm*
-/output
+**/output
+output
 .DS_Store
-/data/
+**/data
