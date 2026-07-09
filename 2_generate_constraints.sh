@@ -27,7 +27,7 @@ module load R/4.3.2-gfbf-2023a
 
 export GLIBCXX_PATH="/modules/uri_apps/software/GCCcore/13.3.0/lib64"
 export LD_LIBRARY_PATH=$GLIBCXX_PATH:$LD_LIBRARY_PATH
-export R_LIBS=~/R-packages
+export R_LIBS=$R_package_DIR/R-packages
 
 # --- Execute ---
 Rscript $GenConR "$Alignments" "$out2" "$clades"
